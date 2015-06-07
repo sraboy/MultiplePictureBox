@@ -1,0 +1,24 @@
+F:\Documents\Visual Studio 2008\Projects\MultiplePictureBox\MultiplePictureBox\obj\Debug\ResolveAssemblyReference.cache
+F:\Documents\Visual Studio 2008\Projects\MultiplePictureBox\MultiplePictureBox\obj\Debug\MultiplePictureBox.MultiplePictureBox.resources
+F:\Documents\Visual Studio 2008\Projects\MultiplePictureBox\MultiplePictureBox\obj\Debug\MultiplePictureBox.csproj.GenerateResource.Cache
+F:\Documents\Visual Studio 2008\Projects\MultiplePictureBox\MultiplePictureBox\bin\Debug\MultiplePictureBox.dll
+F:\Documents\Visual Studio 2008\Projects\MultiplePictureBox\MultiplePictureBox\bin\Debug\MultiplePictureBox.pdb
+F:\Documents\Visual Studio 2008\Projects\MultiplePictureBox\MultiplePictureBox\obj\Debug\MultiplePictureBox.dll
+F:\Documents\Visual Studio 2008\Projects\MultiplePictureBox\MultiplePictureBox\obj\Debug\MultiplePictureBox.pdb
+F:\Documents\Visual Studio 2008\Projects\MultiplePictureBox\MultiplePictureBox\obj\Debug\MultiplePictureBox.MultiplePictureBoxCaptioned.resources
+X:\My Programming\Visual Studio 2008\Projects\MultiplePictureBox\MultiplePictureBox\bin\Debug\MultiplePictureBox.dll
+X:\My Programming\Visual Studio 2008\Projects\MultiplePictureBox\MultiplePictureBox\bin\Debug\MultiplePictureBox.pdb
+X:\My Programming\Visual Studio 2008\Projects\MultiplePictureBox\MultiplePictureBox\obj\Debug\ResolveAssemblyReference.cache
+X:\My Programming\Visual Studio 2008\Projects\MultiplePictureBox\MultiplePictureBox\obj\Debug\MultiplePictureBox.MultiplePictureBox.resources
+X:\My Programming\Visual Studio 2008\Projects\MultiplePictureBox\MultiplePictureBox\obj\Debug\MultiplePictureBox.MultiplePictureBoxCaptioned.resources
+X:\My Programming\Visual Studio 2008\Projects\MultiplePictureBox\MultiplePictureBox\obj\Debug\MultiplePictureBox.csproj.GenerateResource.Cache
+X:\My Programming\Visual Studio 2008\Projects\MultiplePictureBox\MultiplePictureBox\obj\Debug\MultiplePictureBox.dll
+X:\My Programming\Visual Studio 2008\Projects\MultiplePictureBox\MultiplePictureBox\obj\Debug\MultiplePictureBox.pdb
+C:\Users\Steve\My Programming\Visual Studio 2008\Projects\MultiplePictureBox\MultiplePictureBox\bin\Debug\MultiplePictureBox.dll
+C:\Users\Steve\My Programming\Visual Studio 2008\Projects\MultiplePictureBox\MultiplePictureBox\bin\Debug\MultiplePictureBox.pdb
+C:\Users\Steve\My Programming\Visual Studio 2008\Projects\MultiplePictureBox\MultiplePictureBox\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Steve\My Programming\Visual Studio 2008\Projects\MultiplePictureBox\MultiplePictureBox\obj\Debug\MultiplePictureBox.MultiplePictureBox.resources
+C:\Users\Steve\My Programming\Visual Studio 2008\Projects\MultiplePictureBox\MultiplePictureBox\obj\Debug\MultiplePictureBox.MultiplePictureBoxCaptioned.resources
+C:\Users\Steve\My Programming\Visual Studio 2008\Projects\MultiplePictureBox\MultiplePictureBox\obj\Debug\MultiplePictureBox.csproj.GenerateResource.Cache
+C:\Users\Steve\My Programming\Visual Studio 2008\Projects\MultiplePictureBox\MultiplePictureBox\obj\Debug\MultiplePictureBox.dll
+C:\Users\Steve\My Programming\Visual Studio 2008\Projects\MultiplePictureBox\MultiplePictureBox\obj\Debug\MultiplePictureBox.pdb
