@@ -11,98 +11,32 @@ namespace MultiplePictureBox
 {
     public partial class MultiplePictureBox : UserControl
     {
-        private int imagecount;
-        private int displayimage = 0;
-        public Image[] images;
+        private int imageOnDisplay = 0;
 
-        public int ImageCount
-        {
-            get
-            {
-                return this.imagecount;
-            }
-            set
-            {
-                this.imagecount = value;
-            }
-        }
+        private List<Bitmap> Frames;
 
         public MultiplePictureBox()
         {
             InitializeComponent();
+            Frames = new List<Bitmap>();
         }
 
-        public void Initialize(string[] filenames)
+        public void AddImage(Bitmap bmp)
         {
-            ImageCount = filenames.Count();
-            images = new Image[ImageCount];
+            Frames.Add(bmp);
 
-            for (int x = 0; x < imagecount; x++)
-            {
-                images[x] = Image.FromFile(filenames[x]);
-            }
+            if (Frames.Count == 1) //first image
+                pictureBox1.Image = this.Frames[0];
         }
-
-        #region AddImage() - DEPRECATED
-        /// <summary>
-        /// DEPRECATED - Adds another image to the array
-        /// </summary>
-        /// <param name="image">The Image object to add to the array</param>
-        public bool AddImage(Image image)
-        {
-            int x = 0;
-
-            //Cycles through the array to find an empty slot for the new image
-            while (images[x] != null)
-            {
-                if (x < imagecount)
-                {
-                    x++;
-                    if (images[x] == null)
-                    {
-                        images[x] = image;
-                        return true;
-                    }
-                }
-                else
-                    return false;
-            }
-
-            images[x] = image;
-            return true;
-        }
-        #endregion
 
         private void btnNext_Click(object sender, EventArgs e)
         {
-            if (displayimage < imagecount)
-            {
-                displayimage++;
-                if (displayimage == imagecount)
-                    displayimage = 0;
-
-
-                ImageContainer.Image = images[displayimage];
-            }
-            else
-                displayimage = 0;
+            pictureBox1.Image = Frames[ ++imageOnDisplay % Frames.Count ];
         }
 
         private void btnPrevious_Click(object sender, EventArgs e)
         {
-                if (displayimage > 0)
-                {
-                    displayimage--;
-                    if (displayimage == -1)
-                        displayimage = imagecount;
-
-                    ImageContainer.Image = images[displayimage];
-                }
-                else if (displayimage == 0)
-                {
-                    displayimage = (imagecount - 1);
-                    ImageContainer.Image = images[displayimage];
-                }
+            pictureBox1.Image = Frames[ --imageOnDisplay % Frames.Count ];
         }
     }
 }

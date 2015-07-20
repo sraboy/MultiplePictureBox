@@ -28,21 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.ImageContainer = new System.Windows.Forms.PictureBox();
             this.btnPrevious = new System.Windows.Forms.Button();
             this.btnNext = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.ImageContainer)).BeginInit();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // ImageContainer
-            // 
-            this.ImageContainer.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.ImageContainer.Location = new System.Drawing.Point(3, 3);
-            this.ImageContainer.Name = "ImageContainer";
-            this.ImageContainer.Size = new System.Drawing.Size(181, 204);
-            this.ImageContainer.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.ImageContainer.TabIndex = 0;
-            this.ImageContainer.TabStop = false;
             // 
             // btnPrevious
             // 
@@ -66,24 +56,32 @@
             this.btnNext.UseVisualStyleBackColor = true;
             this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(6, 4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(174, 203);
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            // 
             // MultiplePictureBox
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.btnPrevious);
-            this.Controls.Add(this.ImageContainer);
             this.Name = "MultiplePictureBox";
             this.Size = new System.Drawing.Size(187, 240);
-            ((System.ComponentModel.ISupportInitialize)(this.ImageContainer)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.PictureBox ImageContainer;
         private System.Windows.Forms.Button btnPrevious;
         private System.Windows.Forms.Button btnNext;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
